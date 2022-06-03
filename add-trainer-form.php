@@ -208,7 +208,7 @@
                                                 </div>
                                                 <div class="col-lg-5 pr-0">
                                                     <div class="input-group">
-                                                         <input type="text" class="form-control round" placeholder="Enter" aria-label="Amount (to the nearest dollar)" name="commissionLevel4Other">
+                                                         <input type="text" class="form-control round" placeholder="Enter" id="level_four_other" aria-label="Amount (to the nearest dollar)" name="commissionLevel4Other">
                                                        
                                                     </div>
                                                 </div>
