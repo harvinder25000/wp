@@ -164,7 +164,7 @@
                                                 </div>
                                                 <div class="col-lg-5 pr-0">
                                                     <div class="input-group">
-                                                         <input type="text" class="form-control round" placeholder="Enter" aria-label="Amount (to the nearest dollar)" name="commissionLevel2">
+                                                         <input type="text" class="form-control round" placeholder="Enter" id="level_" aria-label="Amount (to the nearest dollar)" name="commissionLevel2">
                                                        
                                                     </div>
                                                 </div>
@@ -175,7 +175,7 @@
                                                 </div>
                                                 <div class="col-lg-5 pr-0">
                                                     <div class="input-group">
-                                                       <input type="text" class="form-control round" placeholder="Enter" aria-label="Amount (to the nearest dollar)" name="commissionLevel3Same">
+                                                       <input type="text" class="form-control round" placeholder="Enter" id="level_two" aria-label="Amount (to the nearest dollar)" name="commissionLevel3Same">
                                                         
                                                     </div>
                                                 </div>
@@ -186,7 +186,7 @@
                                                 </div>
                                                 <div class="col-lg-5 pr-0">
                                                     <div class="input-group">
-                                                         <input type="text" class="form-control round" placeholder="Enter" aria-label="Amount (to the nearest dollar)" name="commissionLevel3Other">
+                                                         <input type="text" class="form-control round" placeholder="Enter" id="level_three" aria-label="Amount (to the nearest dollar)" name="commissionLevel3Other">
                                                       
                                                     </div>
                                                 </div>
@@ -197,7 +197,7 @@
                                                 </div>
                                                 <div class="col-lg-5 pr-0">
                                                     <div class="input-group">
-                                                       <input type="text" class="form-control round" placeholder="Enter" aria-label="Amount (to the nearest dollar)" name="commissionLevel4Same">
+                                                       <input type="text" class="form-control round" placeholder="Enter" id="level_four" aria-label="Amount (to the nearest dollar)" name="commissionLevel4Same">
                                                         
                                                     </div>
                                                 </div>

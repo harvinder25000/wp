@@ -15,6 +15,9 @@ jQuery(document).ready( function(){
         // var switc1=jQuery('#switc1').val();
         var subscription=jQuery('#subscription').val();
         var level_one=jQuery('#level_one').val();
+        var level_two=jQuery('#level_two').val();
+        var level_three=jQuery('#level_three').val();
+        var level_four=jQuery('#level_four').val();
 
 
 
@@ -30,7 +33,9 @@ jQuery(document).ready( function(){
             ' , ' + 'Trainer:' + show_trainer +
             ' , ' + 'No Subscription:' + subscription +
             ' , ' + 'Level 1%:' + level_one +
-            ' , ' + 'No Subscription:' + subscription
+            ' , ' + 'Level 1%:' + level_two +
+            ' , ' + 'Level 1%:' + level_one +
+            ' , ' + 'Level 1%:' + level_one +
             // ' , ' + 'Personal Link:' + switchery1 +
             // ' , ' + 'Online Coaching:' + switc +
             // ' , ' + 'All Privileges:' + switc1 +
