@@ -50,22 +50,20 @@
                                         
                                             <div class="form-group col-12 mb-2">
                                                 <fieldset class="form-group mb-0 mt-10">
-                                                    <select class="custom-select round"  name="userPlan">
+                                                    <select class="custom-select round" id="userplan" name="userPlan">
                                                         <option selected value="0">Select level</option>
-                                                        <option value="3">Level 3</option>
-                                                        <option value="4">Level 4</option>
-                                                        <option value="3,4">Both Level 3 and Level 4</option>
+                                                        <option value="Level 3">Level 3</option>
+                                                        <option value="Level 4">Level 4</option>
+                                                        <option value="Level 3 & 4">Both Level 3 and Level 4</option>
                                                     </select>
                                                 </fieldset>
                                             </div>
 
                                                <div class="form-group col-12 mb-2">
                                                 <fieldset class="form-group mb-0 mt-10">
-                                                    <select class="custom-select round"  name="trainerType">
-                                                       
+                                                    <select class="custom-select round" id="pack"  name="trainerType">
                                                         <option value="1">VIP</option>
                                                         <option  selected value="2" value="4">Standard</option>
-                                                      
                                                     </select>
                                                 </fieldset>
                                             </div> 
@@ -98,7 +96,7 @@
                             <div class="card-body">
                                 <div class="form-group prmte-trnr">
                                     <span id="hideme">
-                                    <input type="checkbox" id="switchery1" class="switchery"  name="PersonaliseLink" checked/>
+                                    <input type="checkbox"  id="switchery1" class="switchery"  name="PersonaliseLink" checked/>
                                    </span>
                                     <label for="switchery" class="font-medium-2 text-bold-600 ml-1">Set Up Personalise link
                                     </label>
@@ -129,7 +127,7 @@
                                             <div class="form-group col-12 mb-2">
                                                 <label>Show Trainer in Trainer Online Coaching</label>
                                                 <fieldset class="form-group mb-0 mt-10">
-                                                    <select class="custom-select round"  name="showTrainer"">
+                                                    <select class="custom-select round" id="show_trainer" name="showTrainer">
                                                         <option selected="">Only Trainer</option>
                                                         <option value="1">Trainer Of first and 3-4 other</option>
                                                         <option value="2">Trainer of first and all other</option>
@@ -144,7 +142,7 @@
                                                 </div>
                                                 <div class="col-lg-5 pr-0">
                                                     <div class="input-group">
-                                                        <input type="text" class="form-control round" placeholder="Enter" aria-label="Amount (to the nearest dollar)" name="commissionFree">
+                                                        <input type="text" class="form-control round" placeholder="Enter" id="subscription" aria-label="Amount (to the nearest dollar)" name="commissionFree">
                                                          
                                                     </div>
                                                 </div>
@@ -155,7 +153,7 @@
                                                 </div>
                                                 <div class="col-lg-5 pr-0">
                                                     <div class="input-group">
-                                                         <input type="text" class="form-control round" placeholder="Enter" aria-label="Amount (to the nearest dollar)" name="commissionLevel1">
+                                                         <input type="text" class="form-control round" placeholder="Enter" id="level_one" aria-label="Amount (to the nearest dollar)" name="commissionLevel1">
                                                         
                                                     </div>
                                                 </div>

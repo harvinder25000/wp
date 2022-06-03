@@ -2,9 +2,44 @@ var aj_ajax_demo = {"ajax_url":"http:\/\/localhost\/wooapp\/wp-admin\/admin-ajax
 
 
 jQuery(document).ready( function(){
-    jQuery('.count_btn').on('click', function(e) {
-        var post_type = jQuery(this).data( 'type' );  // Get post type via the 'data-type' attribute of the button.
+    jQuery('#add_trainer').on('click', function(e) {
+        var complaintinput1=jQuery('#complaintinput1').val();
+        var complaintinput2=jQuery('#complaintinput2').val();
+        var complaintinput3=jQuery('#complaintinput3').val();
+        var userplan=jQuery('#userplan').val();
+        var pack=jQuery('#pack').val();
+        var multi=jQuery('#multi').val();
+        var complaintinput5=jQuery('#complaintinput5').val();
+        // var switchery1=jQuery('#switchery1').val();
+        // var switc=jQuery('#switc').val();
+        // var switc1=jQuery('#switc1').val();
+        var subscription=jQuery('#subscription').val();
+        var level_one=jQuery('#level_one').val();
 
+
+
+        var show_trainer=jQuery('#show_trainer').val();
+        alert(
+                'Name:' + complaintinput1 + 
+            ' , ' + 'Email:' + complaintinput2 + 
+            ' , ' + 'Password:' + complaintinput3 +
+            ' , ' + 'User Plan:' + userplan +
+            ' , ' + 'Pack Type:' + pack +
+            ' , ' + 'MultiChoice:' + multi + 
+            ' , ' + 'Bio:' + complaintinput5 +
+            ' , ' + 'Trainer:' + show_trainer +
+            ' , ' + 'No Subscription:' + subscription +
+            ' , ' + 'Level 1%:' + level_one +
+            ' , ' + 'No Subscription:' + subscription
+            // ' , ' + 'Personal Link:' + switchery1 +
+            // ' , ' + 'Online Coaching:' + switc +
+            // ' , ' + 'All Privileges:' + switc1 +
+        ); 
+        
+        // var post_type = jQuery(this).data( 'type' );  // Get post type via the 'data-type' attribute of the button.
+
+        
+        
         jQuery('#'+post_type+'_count').html('?');  // Clear existing value.
 
         e.preventDefault();

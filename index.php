@@ -87,7 +87,7 @@ wp_enqueue_script( 'sc1', plugins_url( '/js/switchery.min.js', __FILE__ ), false
 wp_enqueue_script( 'sc2', plugins_url( '/js/switch.min.js', __FILE__ ), false, '1.0', 'all' ,true); 
 wp_enqueue_script( 'sc3', plugins_url( '/js/custom.js', __FILE__ ), false, '1.0', 'all' ,true); 
 wp_enqueue_script( 'sc4', plugins_url( '/js/bootstrap-multiselect.js', __FILE__ ), false, '1.0' ,true); 
- wp_localize_script( 'aj-demo', 'aj_ajax_demo', array(
+wp_localize_script( 'aj-demo', 'aj_ajax_demo', array(
                       'ajax_url' => admin_url( 'admin-ajax.php' ),
                       'aj_demo_nonce' => wp_create_nonce('aj-demo-nonce') 
   ));
