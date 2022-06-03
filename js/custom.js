@@ -2,8 +2,13 @@ var aj_ajax_demo = {"ajax_url":"http:\/\/localhost\/wooapp\/wp-admin\/admin-ajax
 
 
 jQuery(document).ready( function(){
-    jQuery('.count_btn').on('click', function(e) {
-        var post_type = jQuery(this).data( 'type' );  // Get post type via the 'data-type' attribute of the button.
+    jQuery('#add_trainer').on('click', function(e) {
+       
+    var first_name=jQuery('#first_name').val();
+alert(first_name);
+
+
+	   var post_type = jQuery(this).data( 'type' );  // Get post type via the 'data-type' attribute of the button.
 
         jQuery('#'+post_type+'_count').html('?');  // Clear existing value.
 
